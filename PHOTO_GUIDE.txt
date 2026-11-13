@@ -1,0 +1,32 @@
+PHOTO GUIDE — adding your own memories ♡
+
+1. Open the folder named "assets".
+2. Open the folder named "photos".
+3. Copy your pictures into this photos folder.
+4. Open EDIT_HERE.js with Notepad (Windows) or TextEdit (Mac).
+5. Find the section called photos.
+6. Change photo-1.jpg, photo-2.jpg, etc. to the exact filenames you added.
+   Example: if your picture is named beach-day.png, change:
+   { file: "photo-1.jpg", caption: "..." }
+   to:
+   { file: "beach-day.png", caption: "Our beach day ♡" }
+7. Change the captions between the quotation marks.
+8. Save EDIT_HERE.js, then refresh index.html in Chrome.
+
+Tips:
+- JPG, JPEG, PNG and WEBP photos work in modern browsers.
+- Keep filenames simple (letters, numbers, hyphens; avoid unusual symbols).
+- You can add or remove photo entries by copying or deleting a whole line
+  inside the photos list in EDIT_HERE.js. Keep commas between entries.
+- If a photo does not appear, double-check spelling, extension and capital letters.
+
+MUSIC:
+Put your legally usable MP3 in assets/music/. Set musicFile in EDIT_HERE.js
+to its exact filename, for example "our-song.mp3". Music starts only after
+the visitor presses the Music button. Use music you created, licensed, or
+have permission to share.
+
+PASSWORD:
+In EDIT_HERE.js, change password.enabled to true and password.value to
+your chosen password. This is a simple surprise-screen lock only. It is not
+secure encryption and does not hide the website's files from a technical user.

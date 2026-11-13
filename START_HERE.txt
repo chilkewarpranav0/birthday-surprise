@@ -1,0 +1,30 @@
+YOUR PINK BIRTHDAY SURPRISE WEBSITE ♡
+
+OPEN IT
+- Extract this ZIP file first.
+- Open the extracted folder "Pink_Birthday_Surprise".
+- Double-click index.html. It should open in Chrome.
+- The site works as a local folder website; no Netlify or account is required.
+
+CUSTOMIZE IT
+- Open EDIT_HERE.js in Notepad.
+- Edit the clearly labelled text inside quotation marks.
+- Save the file, then refresh the website in Chrome.
+- Use PHOTO_GUIDE.txt to add your own pictures.
+- Add music in assets/music/ and set its filename in EDIT_HERE.js.
+
+PASSWORD
+- Optional: set password.enabled to true in EDIT_HERE.js and choose password.value.
+- This is a casual front-door password prompt, not strong security. Do not use it
+  to protect private or sensitive information.
+
+SHARING
+- Opening index.html on your computer is local and does NOT create an internet link.
+- To send it to someone far away, the whole extracted folder must be uploaded to a
+  static website host, or shared through a file service that can host websites.
+- You asked for no Netlify steps, so this package does not require Netlify for local use.
+- If you later want a public link, tell me which hosting option you prefer.
+
+NOTE ABOUT FONTS
+- The website has local fallback fonts. When connected to the internet, it can load
+  optional Google Fonts for the intended typography.

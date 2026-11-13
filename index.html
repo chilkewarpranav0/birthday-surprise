@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff0f5">
+  <title>A Little World for You ♡</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="decor" aria-hidden="true">
+    <span class="heart h1">♡</span><span class="heart h2">♥</span><span class="heart h3">♡</span>
+    <span class="spark s1">✧</span><span class="spark s2">✦</span><span class="spark s3">✧</span>
+    <span class="cloud c1"></span><span class="cloud c2"></span>
+  </div>
+
+  <header class="site-header">
+    <div class="brand"><span>୨୧</span> <b id="site-title">a little world for you</b></div>
+    <div class="header-actions">
+      <button class="music-button" id="music-toggle" aria-label="Play music">♫ <span>Music</span></button>
+      <button class="tiny-home" id="home-button" aria-label="Back to beginning">⌂</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page active" id="welcome">
+      <div class="welcome-card paper">
+        <div class="eyebrow">a tiny surprise, made with love</div>
+        <div class="bow">୨୧</div>
+        <h1 id="opening-title">Hey, it's a little surprise for you! ♡</h1>
+        <p class="subtitle" id="opening-subtitle">Someone has made something special just for you...</p>
+        <button class="primary" id="start-button">Open Your Surprise 🎀</button>
+        <div class="little-note">♡ made just for you ♡</div>
+      </div>
+      <div class="teddy" aria-hidden="true">🧸</div>
+      <div class="pearl-string" aria-hidden="true">• · • · • · • · • · •</div>
+    </section>
+
+    <section class="page" id="memories">
+      <div class="section-heading">
+        <div class="eyebrow">little moments, forever treasures</div>
+        <h2>Our Memory Lane <span>♡</span></h2>
+        <p>Every picture holds a little piece of my favourite story.</p>
+      </div>
+      <div class="gallery" id="gallery"></div>
+      <div class="page-nav"><button class="soft-button" data-prev="welcome">← Back</button><button class="primary" data-next="cake">Next little surprise →</button></div>
+    </section>
+
+    <section class="page" id="cake">
+      <div class="section-heading">
+        <div class="eyebrow">make a wish, birthday girl</div>
+        <h2 id="birthday-heading">A wish just for you! 🎂</h2>
+        <p id="birthday-subtitle">May your day be as lovely as your smile.</p>
+      </div>
+      <div class="cake-scene">
+        <div class="cake-sparkle">✦　♡　✧　♡　✦</div>
+        <div class="candles"><i></i><i></i><i></i></div>
+        <div class="flames"><span></span><span></span><span></span></div>
+        <div class="cake-top"></div><div class="cake-middle"></div><div class="cake-bottom"></div>
+        <div class="cake-plate"></div>
+        <div class="cake-heart">♡</div>
+      </div>
+      <p class="wish-text">Close your eyes and make the sweetest wish ✨</p>
+      <div class="page-nav"><button class="soft-button" data-prev="memories">← Back</button><button class="primary" data-next="letter">Read your letter 💌</button></div>
+    </section>
+
+    <section class="page" id="letter">
+      <div class="section-heading">
+        <div class="eyebrow">a few words from my heart</div>
+        <h2 id="letter-heading">A Little Letter for You 💌</h2>
+      </div>
+      <article class="letter-card">
+        <div class="letter-stamp">♡</div>
+        <p class="letter-greeting" id="letter-greeting">My sweetest love,</p>
+        <p class="letter-body" id="letter-body">[Write your own heartfelt birthday letter here. Replace this text in EDIT_HERE.js.]</p>
+        <p class="letter-signoff" id="letter-signoff">With all my love,</p>
+        <p class="signature" id="signature">[Your name]</p>
+        <div class="letter-flower">✿</div>
+      </article>
+      <div class="page-nav"><button class="soft-button" data-prev="cake">← Back</button><button class="primary" data-next="final">One last page →</button></div>
+    </section>
+
+    <section class="page" id="final">
+      <div class="final-card paper">
+        <div class="eyebrow">the last page, but never the last of my love</div>
+        <div class="big-heart">♡</div>
+        <h2>One last thing...</h2>
+        <button class="primary" id="reveal-button">One Last Thing... 💗</button>
+        <div class="secret-message" id="secret-message" hidden>
+          <div class="secret-sparkles">✧　♡　✦　♡　✧</div>
+          <p id="final-message">[Your secret final message goes here. Edit it in EDIT_HERE.js.]</p>
+          <div class="secret-signature" id="final-signature">♡ always yours ♡</div>
+        </div>
+      </div>
+      <div class="page-nav"><button class="soft-button" data-prev="letter">← Back to letter</button><button class="soft-button" id="restart-button">Start again ↻</button></div>
+    </section>
+  </main>
+
+  <footer>wrapped in pink, sealed with love <span>♡</span></footer>
+  <audio id="background-music" loop preload="none"></audio>
+  <div class="password-overlay" id="password-overlay" hidden>
+    <div class="password-card paper">
+      <div class="bow">୨୧</div><h2>A little secret first…</h2>
+      <p>This surprise is just for you.</p>
+      <form id="password-form">
+        <input id="password-input" type="password" placeholder="Enter the secret password" autocomplete="off" required>
+        <button class="primary" type="submit">Unlock my surprise ♡</button>
+        <p class="password-error" id="password-error" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+  <script src="EDIT_HERE.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
